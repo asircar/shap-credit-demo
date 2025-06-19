@@ -15,8 +15,14 @@ import os
 # Load from local file (space-separated)
 df = pd.read_csv("data/german_credit_data.csv", sep='\\s+', header=None)
 
-# Add column names: 24 features + 1 target
-df.columns = [f"feature_{i}" for i in range(1, 25)] + ["target"]
+# Add column names: 20 features + 1 target
+df.columns = [
+    "checking_account", "duration", "credit_history", "purpose", "credit_amount",
+    "savings", "employment_since", "installment_rate", "personal_status", "guarantors",
+    "residence_since", "property", "age", "installment_plans", "housing",
+    "existing_credits", "job", "liable_people", "telephone", "foreign_worker",
+    "target"
+]
 
 # Transform target: 1 = good → 0, 2 = bad → 1
 df["target"] = df["target"].replace({1: 0, 2: 1})

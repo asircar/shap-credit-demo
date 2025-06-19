@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+shap-env/
+venv/
+.env/
+.venv/
+
+# Streamlit's cache & logs
+.streamlit/
+*.log
+
+# Model and output files
+*.pkl
+models/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS or IDE metadata
+.DS_Store
+.vscode/
+*.swp
+
+# Env files or credentials
+.env

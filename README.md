@@ -109,7 +109,7 @@ Dataset: [German Credit Data (UCI)](https://archive.ics.uci.edu/ml/datasets/stat
 ## 🧠 Author
 
 **Arunava Sircar**  
-[LinkedIn](https://www.linkedin.com/in/arunava-sircar) • [GitHub](https://github.com/your-username) • [Website](#)
+[LinkedIn](https://www.linkedin.com/in/arunava-sircar) • [GitHub](https://github.com/asircar) • [Website](https://www.arunavasircar.com/)
 
 ---
 

@@ -22,4 +22,4 @@ venv/
 *.swp
 
 # Env files or credentials
-.env
+.env.devcontainer/

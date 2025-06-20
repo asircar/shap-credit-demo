@@ -24,3 +24,4 @@ venv/
 # Env files or credentials
 .env.devcontainer/
 .devcontainer/
+.devcontainer/

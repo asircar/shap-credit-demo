@@ -13,10 +13,6 @@ venv/
 .streamlit/
 *.log
 
-# Model and output files
-*.pkl
-models/
-
 # Jupyter
 .ipynb_checkpoints
 

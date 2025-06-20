@@ -27,7 +27,14 @@ X_test = joblib.load("models/X_test.pkl")
 st.sidebar.header("Select Applicant")
 index = st.sidebar.slider("Choose an applicant index", min_value=0, max_value=len(X_test) - 1, value=0)
 
-# Grab selected row
+# --------------------------------------------
+# Fallback: Sidebar visibility notice
+# --------------------------------------------
+st.info("ℹ️ If you don’t see the sidebar, click the small arrow in the top-left corner.")
+
+# --------------------------------------------
+# Grab selected row and predict
+# --------------------------------------------
 row = X_test.iloc[[index]]
 prediction = model.predict(row)[0]
 probability = model.predict_proba(row)[0][prediction]

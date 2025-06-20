@@ -7,7 +7,11 @@ import matplotlib.pyplot as plt
 # --------------------------------------------
 # Streamlit Config
 # --------------------------------------------
-st.set_page_config(page_title="SHAP Credit Risk Explainer", layout="wide")
+st.set_page_config(
+    page_title="SHAP Credit Risk Explainer",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 st.title("🔍 SHAP Explainability for Credit Risk Model")
 
 # --------------------------------------------
